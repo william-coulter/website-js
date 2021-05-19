@@ -3,13 +3,18 @@ import Up from "../icons/chevron-up.svg";
 
 function Navbar() {
   const location = useLocation();
-  const paths = ["about", "resume", "articles"];
+  const paths = ["home", "resume", "articles", "about"];
 
   return (
-    <div class="h-10 font-mono text-gray-600 flex flex-row justify-center space-x-6 border-b-2">
-      {paths.map((p) => (
-        <StyledLink name={p} location={location} />
-      ))}
+    <div>
+      <div class="bg-green-500 h-32 -mt-8 -mx-4 flex flex-row justify-center content-center shadow-md">
+        {paths.map((p) => (
+          <StyledLink name={p} location={location} />
+        ))}
+      </div>
+      <div class="w-6/12 mx-auto -mt-10">
+        <HeaderCard heading={location.pathname.slice(1)} />
+      </div>
     </div>
   );
 }
@@ -17,19 +22,31 @@ function Navbar() {
 function StyledLink({ name, location }) {
   const selected = name === location.pathname.slice(1);
   return (
-    <div class="flex flex-col items-center">
-      <div>
-        <Link to={`/${name}`} class="hover:text-gray-400">
-          {name}
-        </Link>
+    <div class="flex flex-col justify-center content-center px-4">
+      <Link
+        to={`/${name}`}
+        class="font-mono text-lg font-medium text-white hover:text-gray-200"
+      >
+        {name}
+      </Link>
+
+      <div
+        class={`flex justify-center -mt-1.5 ${
+          selected ? "visible" : "invisible"
+        }`}
+      >
+        <img src={Up} alt="chevron up" />
       </div>
-      {selected ? (
-        <div class="-mt-1.5">
-          <img src={Up} alt="chevron up" />
-        </div>
-      ) : (
-        <div />
-      )}
+    </div>
+  );
+}
+
+function HeaderCard({ heading }) {
+  return (
+    <div class="bg-white p-6 rounded-xl shadow-md">
+      <div class="font-mono text-center text-lg font-medium text-black">
+        {heading}
+      </div>
     </div>
   );
 }

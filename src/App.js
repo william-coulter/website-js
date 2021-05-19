@@ -7,11 +7,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div class="2xl:container bg-gray-50 mx-auto p-4">
+    <div class="container bg-gray-50 p-4">
       <Router>
         <Navbar />
-        {/* Body is below Nvabar */}
-        <div class="mt-2">
+        <div class="mt-6">
           <Switch>
             <Route exact path="/">
               <Home />
