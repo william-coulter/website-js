@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div class="container bg-gray-50 p-4">
+    <div class="w-screen h-screen bg-gray-50 p-4">
       <Router>
         <Navbar />
         <div class="mt-6">
