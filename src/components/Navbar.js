@@ -3,7 +3,7 @@ import Up from "../icons/chevron-up.svg";
 
 function Navbar() {
   const location = useLocation();
-  const paths = ["home", "resume", "articles", "about"];
+  const paths = ["Home", "Resume", "Articles", "About"];
 
   return (
     <div>
@@ -25,7 +25,7 @@ function StyledLink({ name, location }) {
     <div class="flex flex-col justify-center content-center px-4">
       <Link
         to={`/${name}`}
-        class="font-mono text-lg font-medium text-white hover:text-gray-200"
+        class="font-sans text-lg font-medium text-white hover:text-gray-200"
       >
         {name}
       </Link>
@@ -44,7 +44,7 @@ function StyledLink({ name, location }) {
 function HeaderCard({ heading }) {
   return (
     <div class="bg-white p-6 rounded-xl shadow-md">
-      <div class="font-mono text-center text-lg font-medium text-black">
+      <div class="font-sans text-center text-lg font-medium text-black">
         {heading}
       </div>
     </div>
