@@ -38,19 +38,25 @@ We have plenty of equations to model the behaviour of particles. Even though the
 
 3. Resources to calculate.
 
-Processors for computers and phones have been the most innovated on technology <!-- TODO -->
+Computer processors are pretty good these days. Despite this, computers in 2021 are unable to process a model of a human brain on a cellular level, let alone the entire universe on a quantum particle level.
 
-Even though the requirements of `1`, `2` and `3` are completely infeasible in 2021, it's reasonable to assume that they will one day be achieved.
+Even though the reaching the requirements for `1`, `2` and `3` is completely infeasible in 2021, this is because of our limited scientific knowledge and technology. Nothing about them is impossible, we're just not there yet. Surely it's reasonable to assume that we will one day satisfy these requirements and calculate the trajectory of the universe from start to finish.
 
 So what does this mean? If the behaviour of the universe from beginning to the end can be calculated, is the universe just as deterministic as the tennis ball that you have thrown through the air?
 
+The mathematician Pierre-Simon Laplace theorised about a determistic universe. After Newtonian physics was grounded amongst the scientific community, Laplace said that if an intellect could know all the conditions of the universe at a point in time and put the data to analysis, then _"nothing could be uncertain and the future just like the past would be present before its eyes"_.
+
+<!-- STARTHERE -->
+
+Except we don't observe a universe where nothing is uncertain. To understand this, we need to talk about information.
+
 ## The 2nd Law of Thermodynamics
 
-### A non-calculatable universe
-
-Mathematician Laplace theorised a deterministic universe in <!-- STARTHERE -->
+The issue with this idea is that a unniverse in which nothing is uncertain would mean it carries no information. Let's talk about information for a bit.
 
 ### Information
+
+### A non-calculatable universe
 
 Disobeys 2LoTD
 
