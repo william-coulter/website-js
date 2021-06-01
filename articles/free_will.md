@@ -20,45 +20,51 @@ Once all of the initial conditions are retrieved, you need some way of modelling
 
 Now that you know all the information about the initial conditions of the ball and its environment, and you have the equations to accurately predict how the ball will move over time, all that's left is the resources for calculating where the ball will be at `t = x` seconds. For a projectile motion question like this, you could probably do all of this manually with a pen and some paper.
 
-What if you wanted to calculate the motion of 10 different balls, each with their own initial conditions? Once again, you could probably achieve this manually with a pen, some paper and a cup of tea. Now let's say you're not calculating the motion of tennis balls, but fundamental quantum particles, and rather than calculating the position of 10 of them, you're calculating the position of 10 million. This would require resources such as a computer with the appropriate computing power and software.
+What's fun to note is that if you know the conditions of the ball at one point in time, then you can derive its conditions at any point in time.
 
 ### A calculatable universe?
 
-If we can accurately predict the behaviour of a tennis ball at the time at which it has left your hand, can we do the same for the universe at the time that it began?
+If we can accurately derive the trajectory of a tennis ball at any point in time, can we scale this calculation up and do the same for the entire universe?
 
 Let's look at our 3 requirements again.
 
 1. The initial conditions.
 
-We of course do not know the exact initial conditions of the universe, however assuming the universe does have a beginning, this is theoretically attainable.
+We of course do not know the exact initial conditions of the universe (or even the exact conditions of the universe right now), however assuming the universe does have a beginning, this is theoretically obtainable.
 
 2. Equations to model behaviour.
 
-We have plenty of equations to model the behaviour of particles. Even though these are constantly being updated and it's very unlikely that the current equations are exact models of the behaviour of particles, this is also theoretically attainable.
+We have plenty of equations to model the behaviour of particles. Even though these are constantly being updated and it's very unlikely that the current equations are exact models of the behaviour of particles, the equations are theoretically obtainable.
 
 3. Resources to calculate.
 
-Computer processors are pretty good these days. Despite this, computers in 2021 are unable to process a model of a human brain on a cellular level, let alone the entire universe on a quantum particle level.
+Computers in 2021 are unable to process a model of a human brain on a cellular level, let alone the entire universe on a quantum particle level. There are however constant innovations being made on the computer processor so who knows how far off this is.
 
-Even though the reaching the requirements for `1`, `2` and `3` is completely infeasible in 2021, this is because of our limited scientific knowledge and technology. Nothing about them is impossible, we're just not there yet. Surely it's reasonable to assume that we will one day satisfy these requirements and calculate the trajectory of the universe from start to finish.
+Even though the reaching the requirements for `1`, `2` and `3` is completely infeasible in 2021 it is not impossible. They cannot be reached because of a lack of scientific understanding and limitations on our technology, not because of a lack of possibility; we're just not there _yet_. But just because it can't be done now, doesn't mean it can't be done ever. So is the universe just as deterministic as the tennis ball that you have thrown through the air?
 
-So what does this mean? If the behaviour of the universe from beginning to the end can be calculated, is the universe just as deterministic as the tennis ball that you have thrown through the air?
+There are some bleak consequences that arrise from a deterministic universe. Can the position of every particle in the universe at every point in time, future and past, be known? Is free will an illusion that can only manifest from our ignorance? Could someone have stopped me from <!-- TODO -->
 
 The mathematician Pierre-Simon Laplace theorised about a determistic universe. After Newtonian physics was grounded amongst the scientific community, Laplace said that if an intellect could know all the conditions of the universe at a point in time and put the data to analysis, then _"nothing could be uncertain and the future just like the past would be present before its eyes"_.
 
-<!-- STARTHERE -->
-
-Except we don't observe a universe where nothing is uncertain. To understand this, we need to talk about information.
+Except we don't observe a universe where nothing is uncertain. There are some systems where knowing every single initial condition doesn't allow you to know the outcomes at every single point in time. To understand this, we need to talk about the 2nd Law of Thermodynamics.
 
 ## The 2nd Law of Thermodynamics
 
-The issue with this idea is that a unniverse in which nothing is uncertain would mean it carries no information. Let's talk about information for a bit.
+The 2nd law of thermodynamics states that any isolated system will trend towards maximum _entropy_.
 
-### Information
+### Entropy and Disorder and Information and Randomness
+
+What is entropy? Entropy can be thought of as the amount of _disorder_ in a system. When you pour your milk into your English breakfast tea, it starts in a very ordered state with all the milk and tea molecules grouped separately. Over time, even without stirring, your tea will become disordered as the milk and tea molecules mix together until it is all a homogenous milk and tea solution.
+
+<!-- STARTHERE -->
+
+In mathematics, entropy and information are fundamentally the same. The amount of information contained in a string of digits
 
 ### A non-calculatable universe
 
-Disobeys 2LoTD
+The issue with the idea that a universe in which nothing is uncertain would mean it carries a constant amount of information. The universe we observe however (thanks to the second law of thermodynamics), is constantly _increasing_ in information.
+
+So where is this information coming from?
 
 ### Schrodinger Equation
 
@@ -66,4 +72,6 @@ Probability is baked into the fundamental particles of the universe
 
 ## Why it's probably not free will
 
-Veretasium
+This article was largely insprired by veretasium's video on randomness. After explaining the schrodinger equation, MUller finishes his video by proposing that the randomness of quantum particles might be the source of our free will.
+
+This video is one of the few videos that I have liked on YouTube, but I thought this ending statement was absolutely proposterous and unscientific.
