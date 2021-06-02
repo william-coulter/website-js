@@ -68,7 +68,7 @@ Let's look back at what Laplace thought about an intelligence that learns the en
 
 If the universe is entirely calculatable and nothing is uncertain, then a pattern has emerged in the universe that can be used to deduce its entire trajectory, future and past. In other words, the amount of entropy in the universe would be a fixed amount and _constant_. But this is not the universe we observe! This is in direct contradiction to the 2nd law of thermodynamics which entails an increasing amount of entropy and randomness and uncertainty. So Laplace's envisioned intelligence cannot exist.
 
-Phew, what a relief! If you are someone who doesn't want to live in a totally predictable and certain universe, you have the 2nd law of thermodynamics to thank.
+If you are someone who doesn't want to live in a totally predictable and certain universe, you have the 2nd law of thermodynamics to thank.
 
 So where is this information coming from?
 
@@ -84,20 +84,30 @@ Every time quantum particles interact, the universe gains a small amount of entr
 
 ## Why it's probably not free will
 
-### Negative
+### The Message of this Article
 
 <!-- This article was largely inspired by the aforementioned Veritasium video (linked ). At the end of the video, Muller states that _"our free will could come from the quantum events in our brains"_.
 
 I absolutely love Muller's channel and this video is one of the few videos on YouTube that I have clicked the "like" button for, but I thought this closing statement was absolutely proposterous! -->
 
-Some people (inlcuding Muller in [his video](https://www.youtube.com/watch?v=sMb00lz-IfE) which this article was largely inspired from) hypothesise that human free will could come from the quantum events in our brains.
+Some people (inlcuding Muller in [his video](https://www.youtube.com/watch?v=sMb00lz-IfE) which this article was largely inspired by) hypothesise that human free will could come from the quantum events in our brains.
 
-I think that this could be the case, but it's like <!-- TODO -->
+I want to encourage every reader to not share this opinion. <!-- TODO -->
 
-To clarify, I am not saying that this statement is wrong. It is entirely possible that human free will exists and its source is in our 2021 understanding of quantum physics. This could be true and nobody knows the answer to those questions. But I am saying that the probability of this being true is so minute that it's not worth considering.
+To clarify, I am not saying that this statement is wrong. It is entirely possible that human free will exists and its source is in our 2021 understanding of quantum physics. Nobody knows the answer to those questions and therefore it could be true. But here is why I think that the probability of this being true is so minute you shouldn't even consider it.
 
-<!-- STARTHERE -->
+Think about all the things that currently exist in the universe and that have existed that aren't humans. We have only been around for the latest 0.0000145% of the universe's lifetime and only occupy part of one tiny planet. It feels almost narcissistic to suggest that the fundamental behaviour of the universe is the reason for this one phenomenon that occurs in one species on one planet in one solar system in one galaxy in one supercluster. Wouldn't the simpler answer be that <!--TODO-->
 
-Think about how brief humans are in the timeline of the universe. Humans have existed for approximately 0.0000145% of the universe's lifetime.
+### Recognition not Assertion
 
-### Positive
+There is a sort of repitition in societies where people have tried to assert themselves as special in the universe. We want to feel important so we cling to what is unknown and use it to differentiate ourselves from the other animals, plants, rocks and things that exist in the universe. We often fail to realise that we are just another thing existing in the universe.
+
+I think the free will argument is another attempt in history to assert ourselves as special in the universe. Luckily, I think we have the knowledge today so that we don't need to _assert_ ourselves as special through the possible existence of something like free will or God or Scientology, but rather we can _recognise_ it right now.
+
+To me, the fact that we can understand so much about the universe and deem ourselves cosmically unspecial, is special. What other thing on Earth (or the universe for that matter) has this level of self-awareness? What other thing can trip over on a staircase and feel embarassed, can tell their mate they had no gum left (when really they just wanted the last piece to themself) and feel guilty or can tell someone they love them and before they respond feel anxious? These experiences are all unique to being human and nothing else and even though in the vastness of the cosmos none of it matters, <!-- TODO --> does that matter?
+
+I think we should be humbled in our little corner of the galaxy, embrace our insignificance in the cosmos and smile at the fact that we are a part of the universe and the universe is a part of us.
+
+In the words of Carl Sagan:
+
+> _"The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."_
