@@ -86,27 +86,25 @@ Every time quantum particles interact, the universe gains a small amount of entr
 
 ### The Message of this Article
 
-<!-- This article was largely inspired by the aforementioned Veritasium video (linked ). At the end of the video, Muller states that _"our free will could come from the quantum events in our brains"_.
-
-I absolutely love Muller's channel and this video is one of the few videos on YouTube that I have clicked the "like" button for, but I thought this closing statement was absolutely proposterous! -->
-
 Some people (inlcuding Muller in [his video](https://www.youtube.com/watch?v=sMb00lz-IfE) which this article was largely inspired by) hypothesise that human free will could come from the quantum events in our brains.
 
-I want to encourage every reader to not share this opinion. <!-- TODO -->
+The message of this article is basically to not share this opinion. <!-- TODO -->
 
 To clarify, I am not saying that this statement is wrong. It is entirely possible that human free will exists and its source is in our 2021 understanding of quantum physics. Nobody knows the answer to those questions and therefore it could be true. But here is why I think that the probability of this being true is so minute you shouldn't even consider it.
 
 Think about all the things that currently exist in the universe and that have existed that aren't humans. We have only been around for the latest 0.0000145% of the universe's lifetime and only occupy part of one tiny planet. It feels almost narcissistic to suggest that the fundamental behaviour of the universe is the reason for this one phenomenon that occurs in one species on one planet in one solar system in one galaxy in one supercluster. Wouldn't the simpler answer be that <!--TODO-->
 
+So why might people be suggesting that free will exists and this is its source?
+
 ### Recognition not Assertion
 
-There is a sort of repitition in societies where people have tried to assert themselves as special in the universe. We want to feel important so we cling to what is unknown and use it to differentiate ourselves from the other animals, plants, rocks and things that exist in the universe. We often fail to realise that we are just another thing existing in the universe.
+There is a sort of repitition in societies where people have tried to assert humanity as special in the universe. We want to feel important so we cling to what is unknown and use it to differentiate ourselves from the other animals, plants, rocks and things that exist in the universe. But it's important to remember that we are just another thing existing in the universe.
 
-I think the free will argument is another attempt in history to assert ourselves as special in the universe. Luckily, I think we have the knowledge today so that we don't need to _assert_ ourselves as special through the possible existence of something like free will or God or Scientology, but rather we can _recognise_ it right now.
+I think the free will argument is another attempt in history to assert ourselves as special in the universe. People aren't like trees and rocks and particles because we can alter the path that we take in the cosmos, look at how special that is! That would be pretty special, but I believe it's unlikely to be true (as explained above). Luckily, I think we have the knowledge today so that we don't need to _assert_ ourselves as special through the possible existence of something like free will or God or Scientology, but rather we can _recognise_ it right now.
 
-To me, the fact that we can understand so much about the universe and deem ourselves cosmically unspecial, is special. What other thing on Earth (or the universe for that matter) has this level of self-awareness? What other thing can trip over on a staircase and feel embarassed, can tell their mate they had no gum left (when really they just wanted the last piece to themself) and feel guilty or can tell someone they love them and before they respond feel anxious? These experiences are all unique to being human and nothing else and even though in the vastness of the cosmos none of it matters, <!-- TODO --> does that matter?
+To me, the fact that we can understand so much about the universe and deem ourselves cosmically unspecial, is special. What other thing on Earth (or the universe for that matter) has this level of self-awareness? What else can trip over in public and feel embarassed, can tell their mate they have no gum left (when really they are saving the last piece to themself) and feel guilty or can tell someone they love them and before they respond feel anxious? These experiences are all unique to being human and nothing else. Even though, when confronted by the vastness of the cosmos and its ever-increasing entropy none of these experiences matter, <!-- TODO --> does that even matter?
 
-I think we should be humbled in our little corner of the galaxy, embrace our insignificance in the cosmos and smile at the fact that we are a part of the universe and the universe is a part of us.
+I think we can all be humbled in our little corner of the galaxy, embrace our insignificance in the cosmos and smile at the fact that we are a part of the universe and the universe is a part of us.
 
 In the words of Carl Sagan:
 
