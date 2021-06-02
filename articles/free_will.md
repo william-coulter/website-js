@@ -40,9 +40,9 @@ We have plenty of equations to model the behaviour of particles. Even though the
 
 Computers in 2021 are unable to process a model of a human brain on a cellular level, let alone the entire universe on a quantum particle level. There are however constant innovations being made on the computer processor so who knows how far off this is.
 
-Even though the reaching the requirements for `1`, `2` and `3` is completely infeasible in 2021 it is not impossible. They cannot be reached because of a lack of scientific understanding and limitations on our technology, not because of a lack of possibility; we're just not there _yet_. But just because it can't be done now, doesn't mean it can't be done ever. So is the universe just as deterministic as the tennis ball that you have thrown through the air?
+Even though the reaching the requirements for `1`, `2` and `3` is completely infeasible in 2021, it is not impossible; we're just not there _yet_. But just because it can't be done now, doesn't mean it can't be done ever. So is the universe just as deterministic as the tennis ball that you have thrown through the air?
 
-There are some bleak consequences that arrise from a deterministic universe. Can the position of every particle in the universe at every point in time, future and past, be known? Is free will an illusion that can only manifest from our ignorance? Could someone have stopped me from <!-- TODO -->
+There are some bleak consequences that arrise from a deterministic universe. Can the position of every particle in the universe at every point in time, future and past, be known? Is free will an illusion that can only manifest from our ignorance? Could someone have told me from <!-- TODO -->
 
 The mathematician Pierre-Simon Laplace theorised about a determistic universe. After Newtonian physics was grounded amongst the scientific community, Laplace said that if an intellect could know all the conditions of the universe at a point in time and put the data to analysis, then _"nothing could be uncertain and the future just like the past would be present before its eyes"_.
 
@@ -56,22 +56,48 @@ The 2nd law of thermodynamics states that any isolated system will trend towards
 
 What is entropy? Entropy can be thought of as the amount of _disorder_ in a system. When you pour your milk into your English breakfast tea, it starts in a very ordered state with all the milk and tea molecules grouped separately. Over time, even without stirring, your tea will become disordered as the milk and tea molecules mix together until it is all a homogenous milk and tea solution.
 
-<!-- STARTHERE -->
+In mathematics, entropy and information are fundamentally the same. The amount of information contained in a string of digits can be thought of how much entropy, or how much disorder, it contains. The string `010101010101010101` doesn't contain as much information as `001110010101011001` since the second string is more disordered. This makes intuitive sense as well since the first string contains repeated patterns which could probably be compressed into a smaller string. For example, we could represent the first string as `019` where `01` is the pattern and `9` is the amount of times it is repeated. The same compression would not be as effective in the second string since the occurance of its digits don't follow an obvious pattern; it's essentially _random_.
 
-In mathematics, entropy and information are fundamentally the same. The amount of information contained in a string of digits
+This was a quick explanation of the link between entropy and randomness. If you would like a more depth explanation, Veritasium has an excellent video of [here](https://www.youtube.com/watch?v=sMb00lz-IfE).
+
+So entropy is essentially the amount of randomness in a system. A fixed amount of entropy implies a fixed amount of randomness meaning a predictable pattern will emerge over time.
 
 ### A non-calculatable universe
 
-The issue with the idea that a universe in which nothing is uncertain would mean it carries a constant amount of information. The universe we observe however (thanks to the second law of thermodynamics), is constantly _increasing_ in information.
+Let's look back at what Laplace thought about an intelligence that learns the entire state of the unvierse: _"nothing could be uncertain and the future just like the past would be present before its eyes"_.
+
+If the universe is entirely calculatable and nothing is uncertain, then a pattern has emerged in the universe that can be used to deduce its entire trajectory, future and past. In other words, the amount of entropy in the universe would be a fixed amount and _constant_. But this is not the universe we observe! This is in direct contradiction to the 2nd law of thermodynamics which entails an increasing amount of entropy and randomness and uncertainty. So Laplace's envisioned intelligence cannot exist.
+
+Phew, what a relief! If you are someone who doesn't want to live in a totally predictable and certain universe, you have the 2nd law of thermodynamics to thank.
 
 So where is this information coming from?
 
-### Schrodinger Equation
+### Quantum Physics
 
-Probability is baked into the fundamental particles of the universe
+The answer to where the universe's ever increasing entropy comes from is not known however, under our current understanding of the universe, a good place to look might be quantum physics.
+
+As I mentioned previously, there are some systems in the universe in which every single initial condition doesn't allow you to know the outcomes at every single point in time. Knowing the initial conditions of a fundamental quantum particle, say an electron, does not let you predict _exactly_ where the electron will be at `t = x` seconds in the same way that you can for tennis ball, but you can predict _probably_ where it's going to be.
+
+The Schrodinger Equation is used in quantum physics to derive a _probability density function_ from a particle's initial conditions. As opposed to in classical physics where a function will tell you where an object will be at any point in time, the probability density function will tell you the probabilty that a particle will be in a certain location at any point in time. It is not until a measurement is taken that the particle's properties become known, however a calculation and prediction on the future value of these properties is entirely probabilistic. It is uncertain beforehand; it is random (within constraints).
+
+Every time quantum particles interact, the universe gains a small amount of entropy. Randomness is baked into our universe.
 
 ## Why it's probably not free will
 
-This article was largely insprired by veretasium's video on randomness. After explaining the schrodinger equation, MUller finishes his video by proposing that the randomness of quantum particles might be the source of our free will.
+### Negative
 
-This video is one of the few videos that I have liked on YouTube, but I thought this ending statement was absolutely proposterous and unscientific.
+<!-- This article was largely inspired by the aforementioned Veritasium video (linked ). At the end of the video, Muller states that _"our free will could come from the quantum events in our brains"_.
+
+I absolutely love Muller's channel and this video is one of the few videos on YouTube that I have clicked the "like" button for, but I thought this closing statement was absolutely proposterous! -->
+
+Some people (inlcuding Muller in [his video](https://www.youtube.com/watch?v=sMb00lz-IfE) which this article was largely inspired from) hypothesise that human free will could come from the quantum events in our brains.
+
+I think that this could be the case, but it's like <!-- TODO -->
+
+To clarify, I am not saying that this statement is wrong. It is entirely possible that human free will exists and its source is in our 2021 understanding of quantum physics. This could be true and nobody knows the answer to those questions. But I am saying that the probability of this being true is so minute that it's not worth considering.
+
+<!-- STARTHERE -->
+
+Think about how brief humans are in the timeline of the universe. Humans have existed for approximately 0.0000145% of the universe's lifetime.
+
+### Positive
