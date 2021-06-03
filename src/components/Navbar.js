@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <div>
-      <div class="bg-green-500 h-32 -mt-8 -mx-4 flex flex-row justify-center content-center shadow-md">
+      <div class="bg-green-700 h-32 -mt-8 -mx-4 flex flex-row justify-center content-center shadow-md">
         {paths.map((p) => (
           <StyledLink name={p} current={currentPath} />
         ))}
@@ -32,18 +32,20 @@ function StyledLink({ name, current }) {
     <div class="flex flex-col justify-center content-center px-4">
       <Link
         to={`/${name}`}
-        class="font-sans text-lg font-medium text-white hover:text-gray-200"
+        class={`font-sans text-lg font-medium text-white hover:text-gray-200 ${
+          selected ? "underline" : "no-underline"
+        }`}
       >
         {name}
       </Link>
 
-      <div
+      {/* <div
         class={`flex justify-center -mt-1.5 ${
           selected ? "visible" : "invisible"
         }`}
       >
         <img src={Up} alt="chevron up" />
-      </div>
+      </div> */}
     </div>
   );
 }
