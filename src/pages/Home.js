@@ -1,5 +1,41 @@
+import { Link } from "react-router-dom";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div class="h-full flex flex-col justify-center space-y-6">
+      <div class="text-center">
+        <h1>William Coulter</h1>
+      </div>
+      <div class="flex flex-row justify-center space-x-6 pb-2 border-b border-primary border-opacity-80">
+        <StyledLink text="About" />
+        <StyledLink text="Resume" />
+      </div>
+      <ArticleLink
+        text="A deterministic universe and what to do about it"
+        article="determinism"
+        date="01 June 2021"
+      />
+    </div>
+  );
+}
+
+function StyledLink({ text }) {
+  return (
+    <Link to={`/${text}`} class="text-center hover:opacity-80">
+      <p class="text-heading2">{text}</p>
+    </Link>
+  );
+}
+
+function ArticleLink({ text, article, date }) {
+  return (
+    <div class="flex flex-row justify-between">
+      <Link to={`/articles/${article}`} class="text-center hover:opacity-80">
+        <p class="italic font-light font-color text-heading2">{text}</p>
+      </Link>
+      <p class="font-light font-color text-secondary opacity-80">{date}</p>
+    </div>
+  );
 }
 
 export default Home;

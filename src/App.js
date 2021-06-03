@@ -1,16 +1,13 @@
-import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import Resume from "./pages/Resume";
-import Articles from "./pages/Articles";
+import Article from "./pages/Article";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div class="w-screen h-screen bg-gray-50 p-4">
+    <div class="flex w-screen h-screen p-4 bg-solarized-dark-base02 overflow-auto">
       <Router>
-        <Navbar />
-        <div class="mt-6">
+        <div class="w-6/12 h-2/4 mx-auto my-auto">
           <Switch>
             <Route exact path="/">
               <Home />
@@ -21,11 +18,8 @@ function App() {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/resume">
-              <Resume />
-            </Route>
             <Route path="/articles">
-              <Articles />
+              <Article />
             </Route>
           </Switch>
         </div>
