@@ -24,7 +24,7 @@ function Article() {
 
   if (!error && article) {
     return (
-      <div class="pb-10 -mt-32">
+      <div class="pb-10 -mt-32 text-justify">
         <Markdown children={article} />
       </div>
     );
