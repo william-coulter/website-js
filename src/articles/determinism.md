@@ -1,4 +1,4 @@
-# Insert Title
+# A deterministic universe and what to do about it
 
 Determinism, the 2nd law of thermodynamics and why it's probably not free will.
 
