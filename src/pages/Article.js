@@ -7,15 +7,18 @@ import { useEffect, useState } from "react";
 function Article() {
   const [article, setArticle] = useState();
   const [error, setError] = useState();
-  useEffect(async () => {
-    try {
-      const res = await fetch(determinism);
-      const text = await res.text();
-      setArticle(text);
-    } catch (e) {
-      console.error(`Could not load article" ${e}`);
-      setError(e);
+  useEffect(() => {
+    async function getArticle() {
+      try {
+        const res = await fetch(determinism);
+        const text = await res.text();
+        setArticle(text);
+      } catch (e) {
+        console.error(`Could not load article" ${e}`);
+        setError(e);
+      }
     }
+    getArticle();
   }, []);
 
   if (error) {
