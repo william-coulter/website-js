@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-6xl font-medium text-heading1 mt-4;
+    }
+
+    h2 {
+        @apply text-4xl font-medium text-heading2 mt-4;
+    }
+
+    h3 {
+        @apply text-lg font-medium text-heading2 mt-4;
+    }
+
+    p {
+        @apply text-primary font-light mt-2;
+    }
+
+    li {
+        @apply text-primary font-medium;
+    }
+
+    blockquote {
+        @apply bg-solarized-dark-base03 italic font-medium opacity-80;
+    }
+}
