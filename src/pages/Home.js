@@ -13,6 +13,7 @@ function Home() {
           to={resume}
           class="no-underline text-center hover:opacity-80"
           target="blank"
+          rel="noreferrer"
         >
           <p class="text-heading2">Resume</p>
         </Link>

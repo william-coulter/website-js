@@ -15,13 +15,22 @@ function About() {
         <a
           href="https://www.linkedin.com/in/william-coulter-854511147/"
           target="_blank"
+          rel="noreferrer"
         >
           LinkedIn
         </a>
-        <a href="https://github.com/william-coulter" target="_blank">
+        <a
+          href="https://github.com/william-coulter"
+          target="_blank"
+          rel="noreferrer"
+        >
           GitHub
         </a>
-        <a href="https://gitlab.com/william-coulter" target="_blank">
+        <a
+          href="https://gitlab.com/william-coulter"
+          target="_blank"
+          rel="noreferrer"
+        >
           GitLab
         </a>
       </div>
