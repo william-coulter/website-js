@@ -1,18 +1,19 @@
 import Markdown from "markdown-to-jsx";
-import determinism from "../articles/determinism.md";
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
-// TODO: When multiple articles exist, make this component take in
-// the article it needs to load as props. For now, just hard-code it all
 function Article() {
-  const [article, setArticle] = useState();
   const [error, setError] = useState();
+  const [articleText, setArticleText] = useState();
+
+  const { article } = useParams();
+
   useEffect(() => {
     async function getArticle() {
       try {
-        const res = await fetch(determinism);
+        const res = await fetch(`../articles/${article}.md`);
         const text = await res.text();
-        setArticle(text);
+        setArticleText(text);
       } catch (e) {
         console.error(`Could not load article" ${e}`);
         setError(e);
@@ -25,14 +26,15 @@ function Article() {
     return <ShowError e={error} />;
   }
 
-  if (!error && article) {
+  if (!error && articleText) {
     return (
       <div class="pb-10 -mt-32 text-justify">
-        <Markdown children={article} />
+        <Markdown children={articleText} />
       </div>
     );
   }
 
+  // TODO: This should be loading state
   return <div />;
 }
 

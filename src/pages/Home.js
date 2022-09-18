@@ -23,6 +23,11 @@ function Home() {
         article="determinism"
         date="01 June 2021"
       />
+      <ArticleLink
+        text="You win some and you lose some"
+        article="you_win_some_and_you_lose_some"
+        date="18 September 2022"
+      />
     </div>
   );
 }
