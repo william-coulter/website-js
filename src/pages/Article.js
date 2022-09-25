@@ -20,7 +20,7 @@ function Article() {
       }
     }
     getArticle();
-  }, []);
+  }, [article]);
 
   if (error) {
     return <ShowError e={error} />;
